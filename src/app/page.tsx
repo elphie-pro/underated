@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className="bg-[#252423] h-screen overflow-hidden">
-      <div className=" w-full block lg:max-w-[85rem] md:max-w-[45rem] mx-auto my-3 px-4 py-6 md:py-6 pb-0">
+      <div className=" w-full block lg:max-w-[85rem] md:max-w-[45rem] mx-auto my-3 px-4 py-6 md:py-6 pb-0 h-screen">
         <div className="flex justify-between">
           {/* left side */}
               <div className="flex flex-col justify-between">
@@ -25,26 +25,30 @@ export default function Page() {
                 </div>
                 {/* logo */}
                 <div>
-                  <Image src="/logo.svg" alt="" width={20} height={20} className="w-full"/>
+                  <Image src="/logo.svg" alt="" width={20} height={20} className="w-full mt-[-5rem]"/>
                 </div>
                 {/* write up */}
-                <div className="flex flex-col gap-14 mb-8">
+                <div className="flex flex-col gap-14">
                     <div className="text-xl">
-                      <h2>Empowering and giving the spotlight to creatives <br />
-                    who don’t always get the recognition they deserve</h2>
+                      <div className="absolute text-xl mt-[-9rem]">
+                        <h2>Empowering and giving the spotlight to creatives <br />
+                        <span className="ml-5">who don’t always get the recognition they deserve</span></h2>
+                      </div>
                     </div>
-                    <div>
-                      <h2>Underated exists for the artists, designers, photographers, <br />
-                     filmmakers, digital creators and creatives in general <br />
-                                           whose talents are real but overlooked.
-                    </h2>
+                    <div className="text-right text-xl ">
+                      <div className="absolute mt-[-7rem]">
+                          <h2>Underated exists for the artists, designers, photographers, <br />
+                           <span className="ml-[5rem]">filmmakers, digital creators and creatives in general</span>    <br />
+                                                      <span className="ml-5">whose talents are real but overlooked.</span>         </h2>
+                      </div>
+                      
                     </div>
                     
                 </div>
             </div>
             {/* middle */}
               <div>
-                  <Image src="/Rectangle 16.svg" alt="" width={20} height={20} className="w-[40rem]"/>
+                  <Image src="/Rectangle 16.svg" alt="" width={20} height={20} className="w-[40rem] translate-x-[rem]"/>
               </div>
           {/* right side */}
               <div>

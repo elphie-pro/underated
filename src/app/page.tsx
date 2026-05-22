@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="bg-[#252423] h-screen overflow-hidden">
+    <div className="bg-[#252423] h-screen overflow-hidden font-custom">
       <div className=" w-full block lg:max-w-[85rem] md:max-w-[45rem] mx-auto my-3 px-4 py-6 md:py-6 pb-0 h-screen">
         <div className="flex justify-between">
           {/* left side */}
@@ -30,12 +30,12 @@ export default function Page() {
                 {/* write up */}
                 <div className="flex flex-col gap-14">
                     <div className="text-xl">
-                      <div className="absolute text-xl mt-[-9rem]">
+                      <div className="absolute text-lg mt-[-9rem]">
                         <h2>Empowering and giving the spotlight to creatives <br />
                         <span className="ml-5">who don’t always get the recognition they deserve</span></h2>
                       </div>
                     </div>
-                    <div className="text-right text-xl ">
+                    <div className="text-right text-lg ">
                       <div className="absolute mt-[-7rem]">
                           <h2>Underated exists for the artists, designers, photographers, <br />
                            <span className="ml-[5rem]">filmmakers, digital creators and creatives in general</span>    <br />

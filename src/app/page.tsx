@@ -39,7 +39,7 @@ export default function Page() {
                       <div className="absolute mt-[-7rem]">
                           <h2>Underated exists for the artists, designers, photographers, <br />
                            <span className="ml-[5rem]">filmmakers, digital creators and creatives in general</span>    <br />
-                                                      <span className="ml-5">whose talents are real but overlooked.</span>         </h2>
+                                                      <span className="ml-5">whose talents are real but overlooked. ol</span>         </h2>
                       </div>
                       
                     </div>

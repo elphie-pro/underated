@@ -39,7 +39,7 @@ export default function Page() {
                       <div className="absolute mt-[-7rem]">
                           <h2>Underated exists for the artists, designers, photographers, <br />
                            <span className="ml-[5rem]">filmmakers, digital creators and creatives in general</span>    <br />
-                                                      <span className="ml-5">whose talents are real but overlooked. ol</span>         </h2>
+                                                      <span className="ml-5">whose talents are real but overlooked.</span>         </h2>
                       </div>
                       
                     </div>
@@ -61,6 +61,14 @@ export default function Page() {
                       <Image src='/Group 34.svg' alt="" width={20} height={20} className="w-full"/>
                     </button>
                   </ul>
+                </div>
+                <div className="flex gap-10 justify-center items-center mt-[17rem] ml-[-8rem]">
+                    <div className="w-[10rem] h-[10rem] bg-[#A11A1A] rounded-2xl">
+
+                    </div>
+                    <div className="w-[10rem] h-[10rem] bg-[#000] border-5 border-white rounded-2xl">
+
+                    </div>
                 </div>
               </div>
         </div>

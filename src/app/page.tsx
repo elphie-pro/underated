@@ -12,7 +12,7 @@ export default function Page() {
                 {/* Navbar */}
                 <div className="hidden md:block">
                   <ul className="flex gap-5 font-bold text-xl text-white cursor-pointer items-center">
-                      <li className="w-30 h-9 bg-[#BE4A4A] p-1 justify-center flex rounded-xl">
+                      <li className="w-30 h-9 bg-[#BE4A4A] p-1 justify-center flex rounded-xl md:text-sm lg:text-sm xl:text-xl">
                       <Link href="/">Collection</Link>
                     </li>
                     <li>

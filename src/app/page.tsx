@@ -5,20 +5,20 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className="bg-[#252423] h-screen overflow-hidden font-custom">
-      <div className=" w-full block lg:max-w-[85rem] md:max-w-[45rem] mx-auto my-3 px-4 py-6 md:py-6 pb-0 h-screen">
-        <div className="flex justify-between">
+      <div className=" w-full block lg:max-w-[85rem] md:max-w-[50rem]  mx-auto my-3 px-4 py-6 md:py-6 h-screen">
+        <div className="flex justify-between md:gap-5">
           {/* left side */}
               <div className="flex flex-col justify-between">
                 {/* Navbar */}
                 <div className="hidden md:block">
                   <ul className="flex gap-5 font-bold text-xl text-white cursor-pointer items-center">
-                      <li className="w-30 h-9 bg-[#BE4A4A] p-1 justify-center flex rounded-xl md:text-sm lg:text-sm xl:text-xl">
+                      <li className="w-full bg-[#BE4A4A] p-1 justify-center flex rounded-xl md:text-sm lg:text-lg">
                       <Link href="/">Collection</Link>
                     </li>
-                    <li>
+                    <li className="md:text-sm lg:text-lg">
                       <Link href="/">Visuals</Link>
                     </li>
-                    <li>
+                    <li className=" md:text-sm lg:text-lg">
                       <Link href="/">The Brand</Link>
                     </li>
                   </ul>
@@ -51,22 +51,22 @@ export default function Page() {
                   <Image src="/Rectangle 16.svg" alt="" width={20} height={20} className="w-[40rem] translate-x-[rem]"/>
               </div>
           {/* right side */}
-              <div>
+              <div className="flex flex-col gap-[17rem]">
               <div className="hidden md:block">
-                  <ul className="flex gap-2 font-extrabold text-xl text-white cursor-pointer items-center">
-                      <li className="w-full h-9 bg-[#BE4A4A] px-2 justify-center align-center items-center flex rounded-xl">
+                  <ul className="flex gap-2 font-extrabold xl:text-xl lg:text-lg md:text-sm text-white cursor-pointer items-center">
+                      <li className="xl:w-full h-9 bg-[#BE4A4A] px-2 justify-center align-center items-center flex rounded-xl">
                       <Link href="/">underated.mag</Link>
                     </li>
-                    <button className="">
-                      <Image src='/Group 34.svg' alt="" width={20} height={20} className="w-full"/>
+                    <button className="ml-[rem]">
+                      <Image src='/Group 34.svg' alt="" width={20} height={20} className="xl:w-full md:w-[3rem]" />
                     </button>
                   </ul>
                 </div>
-                <div className="flex gap-10 justify-center items-center mt-[17rem] ml-[-8rem]">
-                    <div className="w-[10rem] h-[10rem] bg-[#A11A1A] rounded-2xl">
+                <div className="flex gap-10 justify-center items-center  xl:ml-[-8rem ml-[0]]">
+                    <div className="xl:w-[10rem] xl:h-[10rem] md:w-[5rem] md:h-[5rem]  bg-[#A11A1A] rounded-2xl">
 
                     </div>
-                    <div className="w-[10rem] h-[10rem] bg-[#000] border-5 border-white rounded-2xl">
+                    <div className="xl:w-[10rem] xl:h-[10rem] md:w-[5rem] md:h-[5rem] bg-[#000] border-5 border-white rounded-2xl">
 
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default function Page() {
                 {/* Navbar */}
                 <div className="hidden md:block">
                   <ul className="flex gap-5 font-bold text-xl text-white cursor-pointer items-center">
-                      <li className="px-2 p-1 justify-center flex rounded-xl md:text-sm lg:text-lg">
+                      <li className="px-2 p-1 justify-center flex rounded-xl md:text-lg lg:text-lg">
                       <Link href="/">Collection</Link>
                     </li>
                     <li className="md:text-sm lg:text-lg">

@@ -66,13 +66,18 @@ export default function Page() {
                     <div className="xl:w-[10rem] xl:h-[10rem] md:w-[5rem] md:h-[5rem] lg:w-[8.5rem] lg:h-[8.5rem] bg-[#A11A1A] rounded-2xl flex flex-col justify-center">
                         <div className="flex flex-col gap-1/2 justify-center items-center">
                             <h2 className="text-md">Contact Us</h2>
-                            <h6 className="text-xs">info@underated.com</h6>
+                            <h6 className="xl:text-xs lg:text-[.7rem]">info@underated.com</h6>
                         </div>
                     </div>
                     <div className="xl:w-[10rem] xl:h-[10rem] md:w-[5rem] md:h-[5rem] lg:w-[8.5rem] lg:h-[8.5rem] bg-[#000] border-5 border-white rounded-2xl flex flex-col justify-center"> 
                         <div className="flex flex-col gap-4 justify-center items center">
-                            <div className="flex gap-4">
-
+                            <div className="flex gap-4 justify-center items-center">
+                                <Image alt="" width={10} height={10} src="/mingcute_instagram-fill.svg" className="w-1/4"/>
+                                <Image alt="" width={10} height={10} src="/Group.svg" className="w-1/4"/>
+                            </div>
+                            <div className="flex gap-4 justify-center items-center">
+                                <Image alt="" width={10} height={10} src="/mingcute_tiktok-fill.svg" className="w-1/4"/>
+                                <Image alt="" width={10} height={10} src="/mingcute_youtube-fill.svg" className="w-1/4"/>
                             </div>
                         </div>
                     </div>

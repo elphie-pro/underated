@@ -16,7 +16,7 @@ export default function Page() {
                             <Link href="/">Visuals</Link>
                             </li>
                             <li className=" md:text-sm lg:text-lg">
-                            <Link href="/">The Brandd</Link>
+                            <Link href="/">The Brand</Link>
                             </li>
                         </ul>
                     </div>

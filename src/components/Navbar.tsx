@@ -10,7 +10,7 @@ export default function Page() {
                     <div className="hidden md:block">
                         <ul className="flex gap-5 font-bold text-xl text-white cursor-pointer items-center">
                             <li className="bg-[#BE4A4A] px-2 p-1 justify-center flex rounded-xl md:text-lg lg:text-lg">
-                            <Link href="/collection">Collection</Link>
+                            <Link href="/collection">Collections</Link>
                             </li>
                             <li className="md:text-sm lg:text-lg">
                             <Link href="/">Visuals</Link>
